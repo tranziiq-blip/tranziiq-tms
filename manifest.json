@@ -1,0 +1,39 @@
+{
+  "name": "TranziIQ Fleet Intelligence",
+  "short_name": "TranziIQ",
+  "description": "Fleet intelligence and transport management platform for mining and logistics.",
+  "start_url": "./TranziIQ_TMS-v4.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F1F4F8",
+  "theme_color": "#FF5A00",
+  "lang": "en-ZA",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "./TranziIQ_TMS-v4.html#dashboard",
+      "description": "Live fleet dashboard"
+    },
+    {
+      "name": "Driver Interface",
+      "url": "./TranziIQ_TMS-v4.html#driver",
+      "description": "Driver trip logging and pre-trip checks"
+    }
+  ],
+  "categories": ["business", "productivity", "utilities"]
+}
